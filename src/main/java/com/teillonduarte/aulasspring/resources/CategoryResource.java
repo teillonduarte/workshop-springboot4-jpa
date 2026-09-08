@@ -14,7 +14,7 @@ import com.teillonduarte.aulasspring.services.CategoryService;
 
 @RestController
 @RequestMapping(value = "/categories")
-public class CategryResource {
+public class CategoryResource {
 
 	@Autowired
 	private CategoryService service;
